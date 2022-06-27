@@ -1,9 +1,9 @@
-# Cookiecutter Data Science
+# Cookiecutter Data Science w/ Flask App
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
+_A logical, reasonably standardized, but flexible project structure for doing and sharing data science work, including a simple Flask application for serving a REST API to interact with the data science project._
 
 
-#### [Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
+#### [CookieCutter Project homepage](http://drivendata.github.io/cookiecutter-data-science/)
 
 
 ### Requirements to use the cookiecutter template:
