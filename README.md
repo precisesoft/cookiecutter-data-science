@@ -81,6 +81,10 @@ The directory structure of your new project looks like this:
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
 │   │
+│   ├── app            <- Flask Application route and service.
+│   │   ├── route
+│   │   └── service
+│   │
 │   ├── data           <- Scripts to download or generate data
 │   │   └── make_dataset.py
 │   │
@@ -92,9 +96,13 @@ The directory structure of your new project looks like this:
 │   │   ├── predict_model.py
 │   │   └── train_model.py
 │   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
-│
+│   ├── visualization  <- Scripts to create exploratory and results oriented visualizations
+│   │   └── visualize.py
+│   │
+│   ├── run.py         <- Flask App entry-point.
+│   │
+│   └── start_flask.sh <- Serve the Flask app.
+│   
 └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 ```
 
