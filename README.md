@@ -23,11 +23,16 @@ $ conda install cookiecutter
 ```
 
 
-### To start a new project, run:
+### To start a new project (app-password version), run:
 ------------
 
-    cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
+    cookiecutter -c v1 https://nmoschkin@bitbucket.org/precisedigitalhealth/cookiecutter-data-science.git
 
+
+### To start a new project (ssh version), run:
+------------
+
+    cookiecutter -c v1 git@bitbucket.org:precisedigitalhealth/cookiecutter-data-science.git
 
 [![asciicast](https://asciinema.org/a/244658.svg)](https://asciinema.org/a/244658)
 
