@@ -28,6 +28,7 @@ $ conda install cookiecutter
 
     cookiecutter -c v1 https://{username}@bitbucket.org/precisedigitalhealth/cookiecutter-data-science.git
 
+Where '{username}' is your Bitbucket username.
 
 ### To start a new project (ssh version), run:
 ------------
